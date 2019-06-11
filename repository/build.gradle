@@ -21,7 +21,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             buildConfigField 'String', 'BASE_URL', '\"http://gateway.marvel.com/\"'
-            buildConfigField 'String', 'PUBLIC_KEY', '\"PUBLIC_LEY\"'
+            buildConfigField 'String', 'PUBLIC_KEY', '\"PUBLIC_KEY\"'
             buildConfigField 'String', 'PRIVATE_KEY', '\"PRIVATE_KEY\"'
         }
 
@@ -29,7 +29,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             buildConfigField 'String', 'BASE_URL', '\"http://gateway.marvel.com/\"'
-            buildConfigField 'String', 'PUBLIC_KEY', '\"PUBLIC_LEY\"'
+            buildConfigField 'String', 'PUBLIC_KEY', '\"PUBLIC_KEY\"'
             buildConfigField 'String', 'PRIVATE_KEY', '\"PRIVATE_KEY\"'
         }
     }
