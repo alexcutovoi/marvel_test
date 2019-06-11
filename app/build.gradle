@@ -19,13 +19,11 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             buildConfigField 'String', 'BASE_URL', '\"http://gateway.marvel.com/\"'
-            //buildConfigField 'String', 'PUBLIC_KEY', '\"d40daaee5caeda7c2d49b4779930f215\"'
         }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             buildConfigField 'String', 'BASE_URL', '\"http://gateway.marvel.com/\"'
-            //buildConfigField 'String', 'PUBLIC_KEY', '\"d40daaee5caeda7c2d49b4779930f215\"'
         }
     }
 }
