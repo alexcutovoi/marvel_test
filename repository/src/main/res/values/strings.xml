@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Repository</string>
+    <string name="character_bio">Character Bio</string>
+    <string name="character_comics">Comics</string>
+    <string name="character_series">Series</string>
+    <string name="character_search">Search</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MarvelTest</string>
+    <string name="character_name">Character Name</string>
+    <string name="character_image">Character Image</string>
+    <string name="character_bookmark">Character Bookmark</string>
+    <string name="characters_title">Characters</string>
+    <string name="favorites_title">Favorites</string>
+    <string name="loading_data">Loading</string>
+    <string name="error_dialog_title">Error Title</string>
+    <string name="error_dialog_description">Error Description</string>
+    <string name="error_try_again">Tap to try again</string>
+    <string name="empty_bookmark_list">You do not have any bookmarked character</string>
+    <string name="empty_list">No characters found</string>
+    <string name="unknown_error">Unknown Error</string>
+</resources>
