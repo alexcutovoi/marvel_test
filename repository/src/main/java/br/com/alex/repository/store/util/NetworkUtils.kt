@@ -4,7 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.net.ConnectivityManager
 
-class NetworkUtils(val ctx: Context) {
+open class NetworkUtils(val ctx: Context) {
 
     @SuppressLint("MissingPermission")
     open fun isNetworkAvailable(): Boolean {

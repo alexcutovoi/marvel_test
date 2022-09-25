@@ -7,7 +7,7 @@ import br.com.alex.repository.store.util.NetworkUtils
 import io.reactivex.Single
 import retrofit2.Response
 
-open class BaseRemoteStore(val networkUtils: NetworkUtils) {
+open class BaseRemoteStore(private val networkUtils: NetworkUtils) {
 
     protected fun <T> makeBaseEntityApiRequest(request: () -> Single<Response<T>>): Single<T> {
         return if (networkUtils.isNetworkAvailable()) {
