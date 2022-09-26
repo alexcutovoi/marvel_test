@@ -12,7 +12,6 @@ import br.com.alex.domain.model.CharacterModel
 import br.com.alex.marveltest.R
 import br.com.alex.marveltest.util.Utils
 import com.bumptech.glide.Glide
-import kotlinx.android.synthetic.main.character_cell.view.*
 
 class MarvelCharactersAdapter(private var charactersList: MutableList<CharacterModel>,
                               private val showSelectedCharacter: (Int, Boolean) -> Unit,
