@@ -240,14 +240,12 @@ class MarvelCharactersFragment : Fragment(), SwipeRefreshLayout.OnRefreshListene
     }
 
     private fun closeKeyboard(){
-        if(this.activity?.currentFocus != null) {
-            val inputMethodManager = this.activity?.getSystemService(Activity.INPUT_METHOD_SERVICE) as InputMethodManager
-            inputMethodManager.hideSoftInputFromWindow(this.activity?.currentFocus?.windowToken, 0)
-        }
+        val inputMethodManager = this.requireContext().getSystemService(Activity.INPUT_METHOD_SERVICE) as InputMethodManager
+        inputMethodManager.hideSoftInputFromWindow(characterText.windowToken, 0)
     }
 
     private fun showKeyboard(){
-        val inputMethodManager = context?.getSystemService(Activity.INPUT_METHOD_SERVICE) as InputMethodManager
+        val inputMethodManager = this.requireContext().getSystemService(Activity.INPUT_METHOD_SERVICE) as InputMethodManager
         inputMethodManager.showSoftInput(characterText, InputMethodManager.SHOW_IMPLICIT)
     }
 
